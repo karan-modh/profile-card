@@ -1,0 +1,184 @@
+
+/* 
+	CUSTOM CSS FILE
+*/
+
+body {
+	margin-top: 9rem;
+}
+
+ul li a {
+	color: white;
+}
+
+#nav-card {
+	position: relative;
+	background-image: linear-gradient(#b50707,#ff0000);
+	border-radius: 0rem 3rem 0rem 0rem;
+}
+
+#title-card {
+	border-radius: 0rem 0rem 0rem 0rem;
+}
+
+#image-profile {
+	width: 140px;
+	height: 140px;
+	position: absolute;
+	top: -4.5rem;
+	margin-left: 3rem;
+	border: 0.2rem solid white;
+	z-index: 1;
+	box-shadow: 3px 3px 2px black;
+}
+
+.title-main {
+	position: absolute;
+	top: -4.75rem;
+	display: block;
+}
+.name {
+	color: red;
+	font-weight: bolder;
+	font-size: 2.5rem;
+	text-shadow: 2px 2px black;
+}
+.des {
+	position: relative;
+	top: -1.5rem;
+	color: black;
+	font-weight: bold;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#nav-list {
+	margin-top: 1.75rem;
+}
+
+.icon-nav {
+	display: block;
+	text-align: center;
+}
+
+#body-card {
+	border-radius: 0rem 0rem 0rem 3rem;
+	margin-top: -0.25rem;
+}
+	
+#data-table-2 {
+	margin-top: 1rem;
+}
+
+.small-title {
+	text-align: center;
+	margin-left: 3rem;
+	display: none;
+}
+
+#home-small-title {
+	text-align: center;
+	margin-left: 3rem;
+	display: none;
+}
+
+tr {
+	text-align: left;
+	border: 0.1rem solid white;
+}
+table {
+	margin-left: 1.5rem;
+	font-size: 1rem;
+}
+.header-cell {
+	width: 120px;
+}
+.nav-link:hover {
+	color: white;
+}
+/*
+	FEW MEDIA QUERRIES
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	table {
+		font-size: 0.8rem;
+	}
+	#nav-list {
+		font-size: 0.9rem;
+	}
+	.title-main {
+		margin-left: 1rem;
+	}
+	#image-profile {
+		margin-left: 1rem;
+	}
+}
+
+@media only screen and (min-width: 479px) and (max-width: 767px) {
+	#nav-list {
+		margin-left: 3rem;
+		font-size: 0.8rem;
+	}
+	#data-table-2 {
+		margin-top: -1rem;
+	}
+
+	.title-main {
+		display: none;
+	}
+
+	.small-title {
+		display: block;
+		margin-left: 7rem;
+	}
+
+	#home-small-title {
+		display: block;
+		margin-left: 9rem;
+	}
+
+	#image-profile {
+		top: -7.25rem;
+		margin-left: 10rem;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	#nav-list {
+		font-size: 0.7rem;
+	}
+
+	#image-profile {
+		top: -7.25rem;
+		margin-left: 6rem;
+	}
+
+	#nav-card {
+		border-radius: 0rem 0rem 0rem 0rem;
+	}
+
+	.icon-nav {
+		display: block;
+	}
+
+	#body-card {
+		border-radius: 0rem 0rem 0rem 0rem;
+	}
+	
+	#data-table-2 {
+		margin-top: -1rem;
+	}
+	
+	.small-title {
+		display: block;
+		margin-left: 2.5rem;
+	}
+
+	#home-small-title {
+		display: block;
+	}
+
+	.title-main {
+		display: none;
+	}
+}
